@@ -1,3 +1,3 @@
-module github.com/juunini/simple-go-line-notify
+module github.com/AliRamadhans/notify-go
 
-go 1.15
+go 1.18
