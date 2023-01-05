@@ -24,7 +24,7 @@ func main() {
     accessToken := "Here_your_oauth_notify"
     message := "LeeVersion an BotLine  Example For  LineNotify!"
 
-    if err := notify.SendText(accessToken, message); err != nil {
+    if err := notify-go.SendText(accessToken, message); err != nil {
         panic(err)
     }
 }
@@ -37,7 +37,7 @@ accessToken := "your-access-token"
 message := "your message. must not be empty"
 imageURL := "image url. ex) https://..."
 
-if err := notify.SendImage(accessToken, message, imageURL); err != nil {
+if err := notify-go.SendImage(accessToken, message, imageURL); err != nil {
     panic(err)
 }
 ```
@@ -48,7 +48,7 @@ accessToken := "your-access-token"
 message := "your message. must not be empty"
 imagePath := "/your/image/path.png"
 
-if err := notify.SendLocalImage(accessToken, message, imagePath); err != nil {
+if err := notify-go.SendLocalImage(accessToken, message, imagePath); err != nil {
     panic(err)
 }
 ```
@@ -63,7 +63,7 @@ message := "your message. must not be empty"
 stickerPackageId := 1
 stickerId := 113
 
-if err := notify.SendSticker(accessToken, message, stickerPackageId, stickerId); err != nil {
+if err := notify-go.SendSticker(accessToken, message, stickerPackageId, stickerId); err != nil {
     panic(err)
 }
 ```
