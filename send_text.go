@@ -1,4 +1,5 @@
-package notify
+package notify-go
+//LeeVersion_BotLine
 
 import (
 	"net/url"
