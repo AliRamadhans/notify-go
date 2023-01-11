@@ -1,4 +1,4 @@
-package notify-go
+package notify
 //LeeVersion_BotLine
 
 import (
